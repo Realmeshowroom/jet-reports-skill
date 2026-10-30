@@ -1,0 +1,10 @@
+# Exclude build artifacts
+yarn.lock linguist-generated
+*.min.js linguist-generated
+*.ts linguist-detectable
+*.ico binary
+*.woff binary
+*.html linguist-vendored
+src/** linguist-detectable
+
+# eof c2d186c0
